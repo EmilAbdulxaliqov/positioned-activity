@@ -1,0 +1,35 @@
+body{
+    margin: 0px 200px;
+    
+ }
+ h1{
+     text-align: left;
+ }
+ .size{
+     font-size: 25px;
+     text-align: center;
+ }
+ .fixed{
+     position:fixed;
+     top: 0px;
+     left: 0px;
+     background-color: #eee;
+     width: 240px;
+     height: 180px;
+ }
+ .relative{
+     position: relative;
+     bottom: 10px;
+     background-color: #eee;
+     height: 200px;
+ 
+ }
+ .absolute{
+     width: 280px;
+     height: 120px;
+     background-color: grey;
+     position: absolute;
+     left: 800px;
+     bottom: 1px;
+ }
+ 
